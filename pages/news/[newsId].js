@@ -1,12 +1,14 @@
+//our-domain.com/news/news-detail
+
 import { useRouter } from 'next/router'
 
-//our-domain.com/news/news-detail
+
 
 
 function NewsDetailPage() {
    const router = useRouter();
 
-   console.log( router.query.newsId);
+//    console.log( router.query.newsId);
     
    const newsId = router.query.newsId;
 
